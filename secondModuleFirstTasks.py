@@ -1,3 +1,4 @@
+#Task 1
 smallBottlesCost = 0.10
 bigBottlesCost = 0.25
 
@@ -11,3 +12,10 @@ sum = totalSmallBottlesCost + totalBigBottlesCost
 
 formatedSum = "${:.2f}".format(sum)
 print("За сдачу стелотары вы получите" ,formatedSum)
+
+#Task 2
+number = int(input("Введите положительное число: "))
+
+sumOfPositiveIntegers = number * (number + 1) / 2
+
+print("Сумма первых ",number," положительных чисел равна ", sumOfPositiveIntegers)
