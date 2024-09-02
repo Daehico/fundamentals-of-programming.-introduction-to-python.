@@ -57,3 +57,13 @@ print("Номер лотерейного биллета: ", end=" ")
 
 for ticket_number in ticket_numbers:
     print(ticket_number, end=" ")
+
+#Task 4
+input_string = input("Введите строку: ")
+
+characters = {}
+
+for character in input_string:
+    characters[character] = True
+
+print("Строка содержит ", len(characters), " уникальных cимволов")
